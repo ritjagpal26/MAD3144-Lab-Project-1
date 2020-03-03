@@ -1,0 +1,442 @@
+body {
+    font-family: helvetica neue,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.65;
+    color: #666;
+}
+#container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto
+}
+nav {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -1.5em;
+}
+
+
+
+/* add styles for the unordered list in teh nav */
+nav ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* add style for the list items in the nav */
+nav li {
+  /* background-color: #9d9d93; */
+  border-radius: 2em;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* add styles fro teh anchor tag inside the li */
+nav li a {
+  color: Black;
+  text-decoration: none;
+}
+header {
+  text-align: center;
+}
+/* add styles fro teh anchor tag inside the li */
+main {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 1em;
+  /* display: flex; */
+  border-radius: 2em 0 2em 0;
+  background-color: #ffffff;
+  opacity: 0.85;
+}
+/* footer styles */
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 2em;
+  color: #ffffff;
+}
+
+/* styles for anchor tag in main element */
+main a {
+  background-color: #9d9d93;
+  border-radius: 1em;
+  padding: 0.5em;
+  color: #ffffff;
+
+  font-weight: bold;
+  text-decoration: none;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* styles for teh tablet class */
+.tablet {
+  display: none;
+}
+
+/* styles for teh equip class */
+.equip {
+  display: none;
+}
+
+.header {
+  padding: 0.2em;
+  text-align: center;
+  /* background: #1abc9c; */
+  color: Black;
+  font-size: 30px;
+}
+aside {
+
+  margin: 0 1.5%;
+  width: 35%;
+}
+
+
+ .vl {
+  border-left: 6px solid green;
+  height: 200px;
+  position: absolute;
+  top: auto;
+
+}
+.h1{
+  background: #f5f5f0;
+  padding: 0.1em;
+text-align: center;
+font-size: 30px;
+ font-style: italic;
+}
+.items
+{
+  display: block;
+font-size: 15px;
+font-style: bold;
+
+  list-style-position: inside;
+  list-style-type: upper-roman;
+
+}
+ol {
+  /* background: #ff9999; */
+display: block;
+  padding: 20px;
+}
+section p{
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", serif;
+
+}
+table {
+    /* border: 0.1em solid Black; */
+    /* border-collapse: collapse; */
+    margin-left: auto;
+    /* padding-top: 3em; */
+    margin-right: auto;
+    width: 100%;
+  }
+  .table{
+
+
+  }
+
+  .th {
+
+
+}
+/* .table1, .th1 {
+ border-right: 2px solid black;
+} */
+.th1{
+  padding-top: 2em;
+border-right: 2px solid black;
+}
+
+td{
+  background-color: lightyellow;
+  font-size: 16px;
+
+}
+caption {
+
+  display: table-caption;
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+ font-style: bold;
+
+
+
+}
+.caption {
+  padding-top: 2em;
+  padding-bottom: 0.25em;
+  display: table-caption;
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+ font-style: bold;
+
+
+
+}
+footer {
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 2em;
+  color: black;
+}
+footer a {
+  color: Black;
+  text-decoration: none;
+}
+input[type=text], select, textarea {
+  width: 40%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+/* image   ---------------------- */
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.slideshow-container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+img {
+  vertical-align: middle;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.equip {
+   display: inline;
+   float: left;
+   margin-right: 1.5em;
+ }
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+@media only screen and (min-width: 860px) {
+  #container
+  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img{
+    max-width: 100%;
+    width: 80%
+    height:auto;
+  }
+  section{
+    width: 100%;
+  }
+
+  .main {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    display: flex;
+    border-radius: 2em 0 2em 0;
+    background-color: #ffffff;
+    opacity: 0.85;
+  }
+  .success{
+    width:60%;
+    margin-right:40px;
+  }
+  .quotes{
+    width:63%;
+    float:right;
+      margin-left:40px;
+  }
+
+   nav{
+     font-family: Georgia, "Times New Roman", sans-serif;
+     font-size: 1.25em;
+     font-weight: bold;
+     text-align: center;
+     padding: 0.5em;
+     background-color: white;
+   }
+   /* style for ui in nav*/
+   nav ul{
+     padding: 0;
+     margin-top: 0.3em;
+   }
+   nav li{
+     /* align-items:left; */
+
+     margin: 0.3em;
+     padding: 1.2em;
+
+      display: inline;
+     list-style-type: none;
+   }
+   nav li a{
+
+     text-decoration: none;
+   }
+   .leftaside{
+     margin-top: 3em;
+     float: left;
+   margin:auto;
+   padding-right: 1em;
+   padding-bottom: 1em;
+    width: 34%;
+    padding-right: 0.2em;
+   }
+   /* #desktoimg{
+     height: 400px;
+     width: 800px;
+   } */
+  .rightaside {
+    border-radius: 0;
+    border-top: solid #000000;
+    border-bottom: solid #000000;
+  float: right;
+margin: auto;
+ width: 20%;
+  border-left: solid #000000;
+  padding-left: 1em;
+  padding-bottom: 1em;
+ }
+ .contactaside{
+   /* border-radius: 0;
+   border-top: solid #000000;
+   border-bottom: solid #000000; */
+ float: right;
+margin: auto;
+width: 30%;
+ border-left: solid #000000;
+ padding-left: 1em;
+ padding-bottom: 1em;
+
+ }
+
+
+.push {
+  height: 50px;
+}
+footer {
+
+clear: both;
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 5em;
+  color: white;
+  background-color: Black;
+
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
+}
